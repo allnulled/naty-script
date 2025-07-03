@@ -1,0 +1,121 @@
+/* PRECLASES */
+.flex_row {
+    display: flex;
+    flex-direction: row;
+}
+.centered {
+    align-items: center;
+}
+.flex_100 {
+    flex: 100;
+}
+.flex_1 {
+    flex: 1;
+}
+.pad_2 {
+    padding: 8px;
+}
+.pad_top_2 {
+    padding-top: 8px;
+}
+.pad_bottom_2 {
+    padding-bottom: 8px;
+}
+.pad_left_2 {
+    padding-left: 8px;
+}
+.pad_right_2 {
+    padding-right: 8px;
+}
+.pad_1 {
+    padding: 4px;
+}
+.pad_top_1 {
+    padding-top: 4px;
+}
+.pad_bottom_1 {
+    padding-bottom: 4px;
+}
+.pad_left_1 {
+    padding-left: 4px;
+}
+.pad_right_1 {
+    padding-right: 4px;
+}
+.width_100 {
+    width: 100%;
+}
+/* OK: PRECLASES */
+
+.naty_script_editor_container {
+    position: fixed;
+    top: 4px;
+    bottom: 4px;
+    left: 4px;
+    right: 4px;
+    border: 3px double #333;
+    background-color: rgba(0,0,0,0.4);
+}
+.naty_script_editor {
+    position: relative;
+    height: calc(100% - 33px);
+}
+.editor_for_input_container,
+.editor_for_output_container {
+    
+}
+.editor_for_input_container {
+    height: 100%;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.editor_for_output_container {
+    height: 30%;
+}
+.editor_for_output,
+.editor_for_input {
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    resize: vertical;
+    outline: none;
+}
+.editor_for_input {
+
+}
+.editor_for_output {
+    min-height: 200px;
+}
+.editor_title {
+    font-family: Arial;
+    font-size: 12px;
+}
+.button_to_compile {
+    border: 1px solid blue;
+    border-radius: 2pt;
+    cursor: pointer;
+}
+.success_box {
+    background-color: rgba(75, 230, 75, 0.6);
+    border: 1px solid greenyellow;
+    color: black;
+    font-family: Arial;
+    font-size: 11px;
+    margin-bottom: 2px;
+}
+.error_box {
+    background-color: rgba(230, 75, 75, 0.6);
+    border: 1px solid red;
+    color: black;
+    font-family: Arial;
+    font-size: 11px;
+}
+.payload_box {
+    position: absolute;
+    top: auto;
+    bottom: 2px;
+    left: 8px;
+    right: 8px;
+}
